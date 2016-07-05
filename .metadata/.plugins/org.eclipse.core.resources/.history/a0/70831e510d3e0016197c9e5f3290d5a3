@@ -1,0 +1,24 @@
+    
+	import java.sql.*;
+	import org.xml.sax.InputSource;
+	public class menu extends InputSource {
+	    private String _connectionURL;
+	    private String _userName;
+	    private String _passwd;
+	    private String _tableName;
+	    public menu(String connectionURL, String userName, 
+	                           String passwd, String tableName) {
+	        super(connectionURL);
+	        _connectionURL = connectionURL;
+	        _userName = userName;
+	        _passwd = passwd;
+	        _tableName = tableName;
+	    }
+	    public String getTableName() {
+	        return _tableName;
+	    }
+	    public Connection getConnection() throws SQLException {
+	        return DriverManager.getConnection(_connectionURL, _userName, _passwd);
+	    }
+	}
+

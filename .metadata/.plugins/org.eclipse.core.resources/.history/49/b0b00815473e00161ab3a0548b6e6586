@@ -1,0 +1,32 @@
+package restaurant;
+
+public class menu {
+	public static void main(String args[])
+	{
+		Restaurant_system r = new Restaurant_system();
+		r.setFood("Burger");
+		System.out.println("Name:");
+		System.out.println(r.getFood());
+		
+		r.setPrice(2);
+		System.out.println("\nPrice:");
+		System.out.println(r.getPrice());
+		
+		r.setDesc("fat and protein");
+		System.out.println("Description:");
+		System.out.println(r.getDesc());
+		
+		r.setFood("Sndwich");
+		System.out.println("\nName:");
+		System.out.println(r.getFood());
+		
+		r.setPrice(8);
+		System.out.println("\nPrice:");
+		System.out.println(r.getPrice());
+		
+		r.setDesc(" less fat and protein");
+		System.out.println("\nDescription:");
+		System.out.println(r.getDesc());
+	}
+
+}

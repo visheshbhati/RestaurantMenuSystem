@@ -1,0 +1,9 @@
+package restaurant;
+
+import java.util.ArrayList;
+
+public class Menu {
+	public static ArrayList<MenuItem> Load(String menuXmlPath){
+		return null;
+	}
+}

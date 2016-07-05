@@ -1,0 +1,19 @@
+package restaurant;
+
+import java.io.Serializable;
+
+public class Restaurant_system implements Serializable {
+private int price;
+private String food;
+
+public void m_menu(){}
+
+public void setFood(String food)
+{
+	this.food = food;
+}
+public void setPrice(int price)
+{
+	this.price = price;
+}
+}

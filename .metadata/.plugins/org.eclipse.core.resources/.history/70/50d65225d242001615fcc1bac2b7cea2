@@ -1,0 +1,17 @@
+package restaurant;
+
+import java.util.ArrayList;
+import org.w3c.dom.*;
+import javax.xml.parsers.*;
+import java.io.*;
+
+public class Menu {
+	
+	DocumentBuilderFactory factory =
+			DocumentBuilderFactory.newInstance();
+			DocumentBuilder builder = factory.newDocumentBuilder();
+			
+	public static ArrayList<MenuItem> Load(String menuXmlPath){
+		return null;
+	}
+}

@@ -1,0 +1,10 @@
+package restaurant;
+
+import java.io.Serializable;
+
+public class MainClass {
+
+	public static void main(){
+		
+	}
+}
